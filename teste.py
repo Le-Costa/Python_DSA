@@ -17,7 +17,7 @@ altura = float(input("Insira a altura:"))
 
 area = base * altura
 print("Area do paralelograma: ", area)
-'''
+
 
 ## CALCULADORA SIMPLES##
 
@@ -41,3 +41,26 @@ elif ope == "/":
     print("O resultado é: ", resultado)
 else:
     print("Operação inválida!")
+'''
+# CONVERSÃO DE NUMEROS#
+
+float(9)
+int(6.0)
+int(6.3)
+
+# HEXADECIMAL PARA BINARIO#
+hex(394)
+bin(17)
+
+
+# FUNÇOES#
+# retorna o valor absoluto
+
+abs(-8)
+
+# Arredonda os numeros
+round(3.1548657, 4)
+
+# Potencia
+
+pow(5, 3)
