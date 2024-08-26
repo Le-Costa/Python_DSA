@@ -1,4 +1,4 @@
-'''
+
 numeros = list(range(1, 101))
 for numero in numeros:
     if numero % 2 == 0 and numero % 4 == 0:
@@ -98,7 +98,7 @@ sobrenome = "Costa"
 FullName = nome + " " + sobrenome + " " + TextoAd
 
 print(FullName)
-'''
+
 
 # STRING E INDEXAÇÃO#
 
@@ -130,6 +130,40 @@ print(x[3:])
 
 print(x[:7])
 
-# indexação negativa lede tras pra frente
+# indexação negativa le de tras pra frente
 
 print(x[:-1])
+
+# PADRAO DE REPETIÇÃO SE USA OS DOIS PONTOS
+print(x[::3])
+
+# De tras para frente
+print(x[::-3])
+
+
+# NÃO SE PODE ALTERAR ELEMENTOS DE STRING
+
+# PODE SE USAR O SIMBOLO DE MULTIPLICAÇÃO PARA CRIAR REPETIÇÃO
+
+letra = 'w'
+print(letra*3)
+
+####### FUNÇÕES BULT IN DE STRINGS#########
+
+stg = 'Esse é um teste de funcoes bult in'
+
+# upper case- deixa tudo maiusculo
+
+print(stg.upper())
+
+# lowe case- deixa tudo minusculo
+
+print(stg.lower())
+
+# split- divide a string pelos espeços em branco
+
+print(stg.split())
+
+# split ()-divide a string por um elemento especifico
+
+print(stg.split('e'))
