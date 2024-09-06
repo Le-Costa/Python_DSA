@@ -94,3 +94,37 @@ print(salada)  # Não concatena como uma lista só
 # Para sair uma unica lista
 vegetais = [item for sublista in (frutas + vegetais)for item in sublista]
 print(vegetais)
+
+# FUNÇÕES BULT IN
+
+print(len(vegetais))  # retorna o comprimento da lista
+
+numeros = [2, 4, 6, 8, 10]
+print(max(numeros))  # numero maximo da lista
+
+print(min(numeros))  # numero minimo da lista
+
+### COPIA DOS ITENS DE UMA LISTA PRA OUTRA#
+nova_lista = []  # lista vazia
+
+for item in numeros:
+    nova_lista.append(item)
+
+# colocar itens no final
+cidades = ['Recife', 'Manaus', 'Salvador']
+
+cidades.extend(['fortaleza', 'palmas'])
+print("cidades extend", cidades)
+
+print(cidades.index('Recife'))  # localiza o index de determinado item
+
+# Para inserir usar função insert
+
+cidades.insert(2, 110)  # indice,valor a adicionar
+print('inseert', cidades)
+
+cidades.reverse()  # reverte a lista
+print('reverse', cidades)
+
+cidades.sort  # ordena a lista
+print('sort:', cidades)
