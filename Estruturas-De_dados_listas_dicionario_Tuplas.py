@@ -1,6 +1,6 @@
 # criando listas
 # Listas ficam entre colchetes, tuplas entre parenteses
-'''
+
 lista_1 = ['arroz,feijão,macarrão']  # lista com UMA string
 
 print(lista_1)
@@ -82,7 +82,7 @@ print(soma)
 d = 10
 e = d * lista_num[2][2]
 print(e)
-'''
+
 ## CONCATENAÇÃO DE LISTAS###
 frutas = [['amora', 'tomate', 'uva'], ['maça', 'pera', 'ameixa']]
 vegetais = [['alface', 'rucula']]
