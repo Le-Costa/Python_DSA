@@ -1,4 +1,4 @@
-# criando listas
+'''# criando listas
 # Listas ficam entre colchetes, tuplas entre parenteses
 
 lista_1 = ['arroz,feijão,macarrão']  # lista com UMA string
@@ -128,3 +128,46 @@ print('reverse', cidades)
 
 cidades.sort  # ordena a lista
 print('sort:', cidades)
+'''
+
+###DICIONARIOS###
+'''
+estudantes_dict = {"Pedro":24, "Ana":22, "Ronaldo":26}
+print (type(estudantes_dict)) #imprime o tipo
+
+print (estudantes_dict ['Pedro'])#imprime a referencia da chave 
+
+estudantes_dict ["Marcelo" ]= 23 #Adiciona novo elemento ao dicionario, em colchetes é a chave, depois do = a referencia
+
+print (estudantes_dict) 
+estudantes_dict.clear () #Limpa o dicionario 
+
+del estudantes_dict #deleta 
+'''
+estudantes=  {"Pedro":24, "Ana":22, "Ronaldo":26}
+print (len (estudantes)) # verifica o comprimento
+
+#Dicionariows mantem cada par como um elememnto 
+
+print  (estudantes.keys()) #imprime as chaves
+print  (estudantes.values()) #imprime os valores
+print  (estudantes.items())#imprime os itens
+
+estudantes2=  {"leticia":18, "Anna":19, "sara":26}
+
+estudantes.update(estudantes2) #Fez um update no primeiro dicionario com mais um dicionario
+print (estudantes)
+
+##Atribuição de valores de dicionarios a variaveis
+
+a= estudantes ["Anna"]
+b = estudantes ["Ronaldo"]
+
+print (a,b)
+
+#Adicionando listas a dicionarios 
+
+dicionario_listas = { 'a': [1,2,3], "b": [4,5,6]   }
+
+print (dicionario_listas)
+print (dicionario_listas.keys())
