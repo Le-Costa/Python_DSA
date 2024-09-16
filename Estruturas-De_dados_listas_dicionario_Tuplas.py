@@ -174,5 +174,5 @@ print (dicionario_listas.keys())
 
 ##TUPLAS##
     #São imutaveis, não aceitam atrubutos como append ou del[]
-    # usar quando não ter´alteração de elementos.
+    # usar quando não ter´alteração de elementos. 
 
