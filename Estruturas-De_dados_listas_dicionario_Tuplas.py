@@ -171,3 +171,8 @@ dicionario_listas = { 'a': [1,2,3], "b": [4,5,6]   }
 
 print (dicionario_listas)
 print (dicionario_listas.keys())
+
+##TUPLAS##
+    #São imutaveis, não aceitam atrubutos como append ou del[]
+    # usar quando não ter´alteração de elementos.
+
