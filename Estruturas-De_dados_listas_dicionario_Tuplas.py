@@ -1,4 +1,4 @@
-'''# criando listas
+# criando listas
 # Listas ficam entre colchetes, tuplas entre parenteses
 
 lista_1 = ['arroz,feijão,macarrão']  # lista com UMA string
@@ -128,10 +128,10 @@ print('reverse', cidades)
 
 cidades.sort  # ordena a lista
 print('sort:', cidades)
-'''
+ 
 
 ###DICIONARIOS###
-'''
+ 
 estudantes_dict = {"Pedro":24, "Ana":22, "Ronaldo":26}
 print (type(estudantes_dict)) #imprime o tipo
 
@@ -143,7 +143,7 @@ print (estudantes_dict)
 estudantes_dict.clear () #Limpa o dicionario 
 
 del estudantes_dict #deleta 
-'''
+ 
 estudantes=  {"Pedro":24, "Ana":22, "Ronaldo":26}
 print (len (estudantes)) # verifica o comprimento
 
