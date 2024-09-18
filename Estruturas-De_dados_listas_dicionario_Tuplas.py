@@ -55,8 +55,8 @@ valor1 = lista_b[1]
 print(valor1[0])
 
 salada = [['tomate', 'abacate'],
-         [ 'rucula', 'alface', 'agriao'],
-        ['cenoura', 'brocolis']]
+          ['rucula', 'alface', 'agriao'],
+          ['cenoura', 'brocolis']]
 frutas = salada[0]
 folhas = salada[1]
 vegetais = salada[2]
@@ -128,51 +128,52 @@ print('reverse', cidades)
 
 cidades.sort  # ordena a lista
 print('sort:', cidades)
- 
 
-###DICIONARIOS###
- 
-estudantes_dict = {"Pedro":24, "Ana":22, "Ronaldo":26}
-print (type(estudantes_dict)) #imprime o tipo
 
-print (estudantes_dict ['Pedro'])#imprime a referencia da chave 
+### DICIONARIOS###
 
-estudantes_dict ["Marcelo" ]= 23 #Adiciona novo elemento ao dicionario, em colchetes é a chave, depois do = a referencia
+estudantes_dict = {"Pedro": 24, "Ana": 22, "Ronaldo": 26}
+print(type(estudantes_dict))  # imprime o tipo
 
-print (estudantes_dict) 
-estudantes_dict.clear () #Limpa o dicionario 
+print(estudantes_dict['Pedro'])  # imprime a referencia da chave
 
-del estudantes_dict #deleta 
- 
-estudantes=  {"Pedro":24, "Ana":22, "Ronaldo":26}
-print (len (estudantes)) # verifica o comprimento
+# Adiciona novo elemento ao dicionario, em colchetes é a chave, depois do = a referencia
+estudantes_dict["Marcelo"] = 23
 
-#Dicionariows mantem cada par como um elememnto 
+print(estudantes_dict)
+estudantes_dict.clear()  # Limpa o dicionario
 
-print  (estudantes.keys()) #imprime as chaves
-print  (estudantes.values()) #imprime os valores
-print  (estudantes.items())#imprime os itens
+del estudantes_dict  # deleta
 
-estudantes2=  {"leticia":18, "Anna":19, "sara":26}
+estudantes = {"Pedro": 24, "Ana": 22, "Ronaldo": 26}
+print(len(estudantes))  # verifica o comprimento
 
-estudantes.update(estudantes2) #Fez um update no primeiro dicionario com mais um dicionario
-print (estudantes)
+# Dicionariows mantem cada par como um elememnto
 
-##Atribuição de valores de dicionarios a variaveis
+print(estudantes.keys())  # imprime as chaves
+print(estudantes.values())  # imprime os valores
+print(estudantes.items())  # imprime os itens
 
-a= estudantes ["Anna"]
-b = estudantes ["Ronaldo"]
+estudantes2 = {"leticia": 18, "Anna": 19, "sara": 26}
 
-print (a,b)
+# Fez um update no primeiro dicionario com mais um dicionario
+estudantes.update(estudantes2)
+print(estudantes)
 
-#Adicionando listas a dicionarios 
+# Atribuição de valores de dicionarios a variaveis
 
-dicionario_listas = { 'a': [1,2,3], "b": [4,5,6]   }
+a = estudantes["Anna"]
+b = estudantes["Ronaldo"]
 
-print (dicionario_listas)
-print (dicionario_listas.keys())
+print(a, b)
 
-##TUPLAS##
-    #São imutaveis, não aceitam atrubutos como append ou del[]
-    # usar quando não ter´alteração de elementos.
+# Adicionando listas a dicionarios
 
+dicionario_listas = {'a': [1, 2, 3], "b": [4, 5, 6]}
+
+print(dicionario_listas)
+print(dicionario_listas.keys())
+
+## TUPLAS##
+# São imutaveis, não aceitam atrubutos como append ou del[]
+# usar quando não ter´alteração de elementos.
