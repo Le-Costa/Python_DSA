@@ -1,5 +1,5 @@
 ##Condicionais####
-'''
+  
 ##condicional IF##
     #se algo acontecer faça algo
 if 5>2:
@@ -29,11 +29,11 @@ else:
     print ('Sem previsão para essa data')
 
 #operadores lógicos#
-
+'''
 - Operador **and** - Retorna True se ambas as declarações forem verdadeiras.
 - Operador **or** - Retorna True se uma das declarações for verdadeira.
 - Operador **not** - Inverte o resultado, retorna False se o resultado for True.
-
+'''
 
 #AND
 numero = 4 
@@ -94,10 +94,10 @@ for  i in range (0,101,2): #range com incrementeo: (primeiro numero, segundo num
 for caracter in "Estou usando o vscode ":
     print (caracter)
 
-'''
+  
 
 #LOOPS ANINHADOS#
-'''
+  
 #loop aninhado
 lista1 = [0,1,2,3,4]
 lista2 = [1,2,3,]
@@ -110,10 +110,10 @@ for elemento_lista1 in lista1 :
     print ('-----')   
 
 
-#o numero 47 aparece nas duas listas?'''
+#o numero 47 aparece nas duas listas?  
 lista3 = [10,16,24,39,47]
 lista4 = [32,89,47,76,12]
-'''
+  
 for elemento_lista3 in lista3:
         for elemento_lista4 in lista4:
              if elemento_lista3 == 47 and elemento_lista4 == 47:
@@ -133,7 +133,7 @@ for lista in [lista3,lista4]:
                soma += num # sinal de atribuição +=#
 print ("A soma dos números pares é = a:", soma) 
 
-'''
+  
 
 #Aquele é diferente deste #
 soma=0
