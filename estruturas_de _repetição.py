@@ -1,5 +1,5 @@
 ##Condicionais####
-  
+
 ##condicional IF##
     #se algo acontecer faça algo
 if 5>2:
@@ -151,4 +151,36 @@ for linha in matriz:
          if num > maior_numero:
             maior_numero = num 
 print ("maior nuemro: ", maior_numero)
-      
+   
+
+##LOOP WHILE##
+
+#a condição tem que ser verdadeira pelo menos uma vez
+#Ela tem que parar de ser verdadeira em algum momento, se não da um loop infinito 
+
+valor =0
+while valor <5:
+    print (valor)
+    valor = valor + 1 
+
+#Pode se usar else com while
+x=0 
+while x <5:
+    print ("X nesta iteração :", x)
+    print ("x ainda é menor que 10, somando 1 a x")
+    x+=1 
+else:
+    print ("loop concluido")
+print (x)
+
+#PASS, BREAKE E CONTINUE# 
+
+var1 = 0
+while var1 < 5:       #primeiro loop acontecerá enquanto a var1 for menor que 5 
+    if var1 ==4 :  #depois de checar se é menor qu 5 verifica se é igual 4 
+        break       # se for igual a 4 o brek para o loop       
+    else:           # se não for igual a 4 passa para o comando seguinte  
+        pass
+    print (var1)
+    var1 = var1 +1     
+
