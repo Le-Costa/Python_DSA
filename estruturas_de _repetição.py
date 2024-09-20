@@ -151,7 +151,7 @@ for linha in matriz:
          if num > maior_numero:
             maior_numero = num 
 print ("maior nuemro: ", maior_numero)
-   
+
 
 ##LOOP WHILE##
 
@@ -177,10 +177,15 @@ print (x)
 
 var1 = 0
 while var1 < 5:       #primeiro loop acontecerá enquanto a var1 for menor que 5 
-    if var1 ==4 :  #depois de checar se é menor qu 5 verifica se é igual 4 
+    if var1 ==4 :  #depois de checar se é menor que 5 verifica se é igual 4 
         break       # se for igual a 4 o brek para o loop       
     else:           # se não for igual a 4 passa para o comando seguinte  
         pass
     print (var1)
     var1 = var1 +1     
+
+for letra in "Estou usando o zzz vscode":
+    if letra == 'z': #Condição para continuar o código e ignorar
+        continue  #Desconsidera o a letra#
+    print (letra)
 
