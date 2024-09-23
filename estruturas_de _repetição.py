@@ -30,11 +30,11 @@ else:
     print('Sem previsão para essa data')
 
 # operadores lógicos#
-
+'''
 - Operador ** and ** - Retorna True se ambas as declarações forem verdadeiras.
 - Operador ** or ** - Retorna True se uma das declarações for verdadeira.
 - Operador ** not ** - Inverte o resultado, retorna False se o resultado for True.
-
+'''
 
 # AND
 numero = 4
