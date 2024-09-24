@@ -1,4 +1,4 @@
-# Intervalo de valores com a Função Range##
+ # Intervalo de valores com a Função Range##
 
 # loop para percorrer numeros de 1 a 10
 for i in range(1, 11):  # o ultimo número é exclusivo, não é impresso
@@ -103,3 +103,54 @@ array = [1, 2, 3, 4]
 print(max(array))  # maior numero da variavel
 print(min(array))  # menor numero da variavel
 print("soma: ", sum(array))
+ 
+##SPLIT DE DADOS###
+
+def split_string_plavras (text):
+    return text.split (" ")
+
+texto = 'esta função será bastante util para separar grnades volumes de dados'
+print (split_string_plavras(texto))
+
+# se pode atribuir o output de uma função p/ um avariavel
+token = (split_string_plavras(texto))
+print (token)
+
+def split_string_letras (text):
+     texto = text.upper () #passa todas as letras da variavel para maiusculo
+     for letra in texto:#percorre as letras da variavel 
+          print (letra)# printa cada letra do loop
+
+print (split_string_letras(texto))
+
+        ###Expressão Lambda####
+
+# definindo um afunção em 3 linhas de código
+def potencia (num):
+     resultado = num **2
+     return resultado 
+
+print (potencia(5))
+
+#definindo a função em 2 linhas de código 
+def potencia (num):
+     return num **2
+
+print (potencia (5))
+
+#definindo em uma linha de codigo 
+def potencia (num): return num **2
+
+print (potencia(5))
+
+#definindo uma expresao lambda ( anonima)- cria a função me tempo de execução
+potencia = lambda num: num**2
+
+print (potencia(5))
+
+#retorna apenas numero pares 
+par = lambda x: x%2==0
+
+print (par (4))
+
+
