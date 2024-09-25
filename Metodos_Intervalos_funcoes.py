@@ -1,5 +1,5 @@
  # Intervalo de valores com a Função Range##
-'''
+
 # loop para percorrer numeros de 1 a 10
 for i in range(1, 11):  # o ultimo número é exclusivo, não é impresso
     print(i)
@@ -152,7 +152,7 @@ print (potencia(5))
 par = lambda x: x%2==0
 
 print (par (4))
-'''
+
             #LIST COMPREHENSION AND DICT COMPREHENSION### Loop dentro de lista
 #[expressaõ for item in iterable if consição ==true]
 #LC  que imprime os numeros ate 10 
