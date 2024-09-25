@@ -1,5 +1,5 @@
  # Intervalo de valores com a Função Range##
-
+'''
 # loop para percorrer numeros de 1 a 10
 for i in range(1, 11):  # o ultimo número é exclusivo, não é impresso
     print(i)
@@ -143,7 +143,7 @@ def potencia (num): return num **2
 
 print (potencia(5))
 
-#definindo uma expresao lambda ( anonima)- cria a função me tempo de execução
+#definindo uma expresao lambda ( anonima)- cria a função em tempo de execução
 potencia = lambda num: num**2
 
 print (potencia(5))
@@ -152,5 +152,36 @@ print (potencia(5))
 par = lambda x: x%2==0
 
 print (par (4))
+'''
+            #LIST COMPREHENSION AND DICT COMPREHENSION### Loop dentro de lista
+#[expressaõ for item in iterable if consição ==true]
+#LC  que imprime os numeros ate 10 
+print ([x for x in range (10)])
 
+lista_numeros=[x for x in range (10) if x<5]
+print (lista_numeros)
 
+#lista de frutas 
+frutas = [ 'banana','limao','abacate','manga']
+
+nova_lista = []
+
+#loop tradicional buscando as palavras com letra m
+
+for x in frutas:
+    if 'm' in x:
+        nova_lista.append(x)
+
+print (nova_lista)
+
+# loop em LC
+
+nova_lista = [x for x in frutas if 'm' in x]
+print (nova_lista)
+
+                    ###Dict conmprhension##
+
+alunos = {'bob':68, 'leticia':19}
+
+alunos_status = {k:v for (k,v) in alunos.items()}
+print (alunos_status)
