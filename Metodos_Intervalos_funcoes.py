@@ -154,7 +154,8 @@ par = lambda x: x%2==0
 print (par (4))
 
             #LIST COMPREHENSION AND DICT COMPREHENSION### Loop dentro de lista
-#[expressaõ for item in iterable if consição ==true]
+#SINTAXE: [expressão for item in iterable if condição ==true]
+
 #LC  que imprime os numeros ate 10 
 print ([x for x in range (10)])
 
