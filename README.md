@@ -7,9 +7,9 @@
 <body>
     <h1>Anotações do Curso Python Dsa Academy </h1>
     <h2> &#128214 Resumo: </h2>
-    <p> Neste repositório esta concentrado as anotações e resumos feitos durante o curso da Dsa Academy que stou realizando.  </p>
+    <p> Neste repositório esta concentrado as anotações e resumos feitos durante o curso da Dsa Academy que estou realizando.  </p>
     <h2> &#x1F4DD Descrição: </h2>
-    <p> Criei este repositório com o objetivo de concentrar em um lugar só todas as minhas anotações e resumos feitos durante a realização do curso de Python para ciências de dados da DSa Academy, dessa forma vou me familiarizando com as ferramentas utilizadas.<br>
+    <p> Criei este repositório com o objetivo de concentrar em um lugar só todas as minhas anotações e resumos feitos durante a realização do curso de Python para ciências de dados da DSA Academy, dessa forma vou me familiarizando com as ferramentas utilizadas.<br>
       Os diretórios estão organizados por assuntos para melhor localização de dúvidas pontuais. 
     </p>
     <h2> &#129302; Tecnologia utilizadas: </h2>
